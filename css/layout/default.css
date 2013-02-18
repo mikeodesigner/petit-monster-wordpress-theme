@@ -1,0 +1,16 @@
+/* code == poetry */
+/* global elemetns layout */
+.container									{}
+	header.global 						{} 
+		header.global hgroup 		{}
+		nav.global > ul 				{}
+		nav.global > ul li			{}
+	section.global 						{}
+	aside.global 							{}
+		section.widget 					{}
+	footer.global 						{}
+	footer.global p 					{}
+                             
+
+/* vertical and horisontal white space */
+.global > * 								{}

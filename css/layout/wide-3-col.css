@@ -1,0 +1,47 @@
+body {text-align:left;}
+
+/* heder */
+.container {
+	position:relative;
+	width:90%;
+	margin:2em 5%;
+}
+
+
+header.global { width:38.2%; float:left; }
+header.global hgroup { float:left; width:38.2%; }
+
+
+/*nav */
+
+nav.global { float:left; width:61.8%; }
+nav.global ul {margin:0; }
+nav.global ul li { }
+nav.global ul li a {}
+
+
+/* sidebar */ 
+aside.global { float:right; width:23.6%;}
+
+
+
+/* content */
+
+section.content {width:61.8%; float:right; }
+
+
+/* footer */ 
+
+footer.global {width:61.8%; float:right; clear:both;}
+footer p {}
+
+
+
+/* aside */ 
+aside { float:left; width:20%;}
+
+
+/* global vertical and horisontal white space */
+header.global hgroup a {display:block;}
+header.global hgroup  > * , nav.global > ul, section.content > *, footer.global > *  {padding:30px 50px;}
+aside.global > * {padding:5px 50px;}

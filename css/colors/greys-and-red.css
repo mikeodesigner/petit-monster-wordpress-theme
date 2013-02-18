@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------------*/
+/*		color CSS 
+/*		by Mikeo.designer 
+/*------------------------------------------------------------------------*/
+
+
+
+/* 
+	gray background : #F0F3F3
+	text : #7D7D7D;
+	lighter grey text: #A5A5A5;
+
+
+
+*/
+
+body {
+	background:#E6F3EE;
+	color:#959595;
+}
+
+a {color:#B63C3D;}
+a:visited {} 
+a:hover {}
+a:focus {outline: 0;}
+
+h2, h3, h4 {color:#3D3D3D;}
+h1 {color:#3D3D3D;}
+h1.big {}
+
+p.lead {color:#3F3F3F;}
+
+
+legend { background:#ff7425; color:#fff;}
+em {color:#e33100; font-weight:bold;}
+input, textarea, select { color:#666; background:#fff; 	border:1px solid #c7c7c7;}
+input { vertical-align:middle; }
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+	color: #777;
+	background: #E4F7FA;
+	border: 1px solid #00DFFF;
+}
+
+
+/*------------------------------------------------------------------------*/
+/**	Nav  
+/*------------------------------------------------------------------------*/
+
+header.global {background:#FFF;}
+header.global nav ul a{color:#A5A5A5;}
+header.global nav ul li.current_page_item a{color:#B63C3D;}
+header.global nav ul {}
+
+
+/*------------------------------------------------------------------------*/
+/** logo
+/*------------------------------------------------------------------------*/
+
+header.global hgroup { }
+header.global h1, header.global p {}
+header.global h1 {}
+header.global p {color:#808080}

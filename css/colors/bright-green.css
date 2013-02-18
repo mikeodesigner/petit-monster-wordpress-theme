@@ -1,0 +1,52 @@
+body {
+	background:#B3CC57;
+	color:#474F34;
+}
+
+a {color:#597B1F;}
+a:visited {} 
+a:hover {}
+a:focus {outline: 0;}
+
+h2, h3, h4 {color:#FEFFF5;}
+h1 {color:#ECF081;}
+h1.big {}
+
+p.lead {}
+
+
+legend { background:#ff7425; color:#fff;}
+em {color:#e33100; font-weight:bold;}
+input, textarea, select { color:#666; background:#fff; 	border:1px solid #c7c7c7;}
+input { vertical-align:middle; }
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+	color: #777;
+	background: #E4F7FA;
+	border: 1px solid #00DFFF;
+}
+
+
+/*------------------------------------------------------------------------*/
+/**	Nav  
+/*------------------------------------------------------------------------*/
+
+header.global {}
+header.global nav ul a{color:#FFF;}
+header.global nav ul li.current_page_item a{color:#ECF081;}
+header.global nav ul {}
+
+
+/*------------------------------------------------------------------------*/
+/** logo
+/*------------------------------------------------------------------------*/
+
+header.global hgroup { }
+header.global h1, header.global p {}
+header.global h1 {color:#FFF;}
+header.global p {color:#808080}
