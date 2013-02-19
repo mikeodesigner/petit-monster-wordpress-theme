@@ -1,0 +1,31 @@
+/* code == poetry */
+/* global elemetns layout */
+.container																{ width: 1100px; margin: 0 auto; }
+	header.global 													{ width: 100%; text-align: left; } 
+		header.global hgroup 									{ }
+		nav.global														{ }
+			nav.global > ul 										{ display: block; margin: 0; } 
+				nav.global > ul li								{ display: inline-block; padding: 0 20px; }
+				nav.global > ul li:last-child 		{ padding-right:0; }
+				nav.global > ul li:first-child 		{ padding-left:0; }
+	section.global 													{ width:70%; clear: both; float: left; }
+	aside.global							 							{ width:30%; float:right; }
+		section.widget 					 							{ width: 100%; float: left; padding-top: 1em; }
+	footer.global 						 							{ clear:both; }
+	footer.global p 					 							{ }
+                              						
+
+/* vertical and horisontal white space */
+.global > * 															{ padding: 2em 40px; }
+nav.global 																{ margin: 0; padding: 0; }
+	nav.global ul 													{ padding: 0.5em 40px; }
+
+/*full width home page */
+.home section.content 										{ width: 100%; }
+
+
+
+
+
+
+

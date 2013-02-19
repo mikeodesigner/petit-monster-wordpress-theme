@@ -1,0 +1,64 @@
+/*------------------------------------------------------------------------*/
+/*		color CSS 
+/*		by Mikeo.designer 
+/*------------------------------------------------------------------------*/
+
+
+body {
+	background:#FAD62C;
+	color:#101010;
+}
+
+a {
+	color:#000;}
+a:visited {} 
+a:hover {}
+a:focus {outline: 0;}
+
+
+
+
+h1, h2, h3 {
+	color:#0B0B0B;
+	}
+
+p.lead {}
+
+
+legend { 
+	background:#ff7425; 
+	color:#fff;}
+	
+em {
+	color:#e33100; font-weight:bold;}
+input, textarea, select { color:#666; background:#fff; 	border:1px solid #c7c7c7;}
+input { vertical-align:middle; }
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover {
+	color: #777;
+	background: #E4F7FA;
+	border: 1px solid #00DFFF;
+}
+
+
+/*------------------------------------------------------------------------*/
+/**	Nav  
+/*------------------------------------------------------------------------*/
+
+header.global nav ul a{color:#F7CF2B}
+nav.global ul, nav.global, nav.global:before  {background:#000;}
+
+
+/*------------------------------------------------------------------------*/
+/** logo
+/*------------------------------------------------------------------------*/
+
+header.global hgroup { }
+header.global h1, header.global p {}
+header.global h1 {}
+header.global p {color:#808080}

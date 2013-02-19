@@ -1,0 +1,20 @@
+/* code == poetry */
+/* global elemetns layout */
+.container									{ width: 870px; margin: 0 auto;  }
+	header.global 						{ width: 100%; text-align: center; } 
+		header.global hgroup 		{ margin: 0 auto; padding: 2em 0; }
+		nav.global							{ }	
+			nav.global > ul 			{ display: table; margin: 0 auto; } 
+			nav.global > ul li		{ display: inline-block; padding: 1em 25px; }
+	section.global 						{ width: 100%; }
+	aside.global 							{ }
+		section.widget 					{ width: 25%; float:left; padding-top:1em; }
+	footer.global 						{ clear: both; text-align: center; }
+	footer.global p 					{ margin: 0; padding: 1em 0; }
+
+
+/* vertical and horisontal white space */
+.global > * 								{ padding: 2.5em 4%; }
+nav.global 									{ padding: 0; }
+nav.global > ul 						{ padding: 0; }
+

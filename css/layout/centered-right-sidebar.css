@@ -1,0 +1,21 @@
+/* code == poetry */
+/* global elemetns layout */
+.container										{ width: 1100px; margin: 0 auto; }
+	header.global 							{ text-align: center; } 
+		header.global hgroup 			{ clear: both; margin: 0 auto; }
+		nav.global								{ width: 25%; float: right; text-align: left; }
+			nav.global > ul 				{ margin: 0; } 
+				nav.global > ul li		{ display: block; }
+	section.global 							{ width: 75%; float: left; }
+	aside.global								{ width: 25%; float: right; clear:right; }
+		section.widget 						{ width: 100%; float: left; padding-top: 1em; }
+	footer.global 							{ clear: both; margin:0; text-align: center; }
+	footer.global p 						{ margin:0; padding: 1em 0; }
+  
+
+/* vertical and horisontal white space */
+.global > * 									{ padding: 2em 40px; }
+nav.global 										{ margin: 0; padding: 0; }
+
+
+

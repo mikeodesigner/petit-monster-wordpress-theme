@@ -1,0 +1,21 @@
+/* code == poetry */
+/* global elemetns layout */
+.container										{ width: 90%; max-width:80em; float: left; position: relative;}
+	header.global 							{ width: 20%; float: left; } 
+		header.global hgroup 			{ }
+		nav.global								{ }
+			nav.global > ul 				{ } 
+				nav.global > ul li		{ }
+	section.global 							{ width: 80%; float: right; }
+	aside.global								{ width: 20%; float: left; clear: left; }
+		section.widget 						{ width: 100%; float: left; padding-top: 1em; }
+	footer.global 							{ width: 20%; float: left; clear: left;}
+	footer.global p 						{ }
+
+
+/* global vertical and horisontal white space */
+.global > * {padding:2.5em 8%;}
+header.global > *, aside.global > *, footer.global > * {padding:2.5em 15%;}
+nav.global 	{padding:0; margin:0;}/* ensures layouts won't break because padding changes width */
+nav.global > ul {padding:1em 15%;}
+
