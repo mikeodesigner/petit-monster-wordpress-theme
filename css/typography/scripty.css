@@ -1,3 +1,5 @@
+/* Author: mikeo.designer */
+
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:400,700);
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,300italic,300,100italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700italic,700,600italic,600,400italic,300italic,300,800italic);
@@ -66,12 +68,13 @@ blockquote cite:before {
 
 blockquote {
 	position:relative;
-	padding:0 120px;
+	padding:0;
+	max-width:20em;
 	font-weight: 200;
 	line-height: 1.4em;
 	font-size: 24px; /* 1.4 x 14 = 19px */ 
 	text-indent: 0px;
-	margin: 40px 0;
+	margin: 40px auto;
     font-family: 'Dancing Script';
 text-align:center;
 }
@@ -90,7 +93,7 @@ blockquote cite {
 
 
 
-p big {
+p.big {
     line-height: 1.5em;
     font-size: 24px;
    	font-family: 'Josefin Sans', sans-serif;
@@ -107,7 +110,7 @@ h1.big {
 }
 
 
-h1 big  {
+.logo h1  {
     margin-bottom: 0px;
     text-transform: none;
     font-size: 42px;
@@ -123,7 +126,7 @@ h3 {
 
 
 
-body > header > nav > ul {
+.nav > ul {
 	font-family: 'Josefin Sans', sans-serif;
 	margin:0;
 		font-weight:400;

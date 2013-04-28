@@ -1,3 +1,5 @@
+/* Author: mikeo.designer */
+
 /*------------------------------------------------------------------------*/
 /* font import
 /*------------------------------------------------------------------------*/
@@ -20,42 +22,78 @@
 /*------------------------------------------------------------------------*/
 
 body {
-	font-size:16px;
-	font-family: Georgia,Times,'Times New Roman',serif ;
-	line-height:1.5rem; 
+  font-size:16px;
+  font-family: Georgia,Times,'Times New Roman',serif ;
+  line-height:1.5rem; 
 }
 
 
 /*------------------------------------------------------------------------*/
-/**	headings 
+/** headings 
 /*------------------------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'LeagueGothicRegular', sans-serif; 
-	text-transform:uppercase;
-	margin:0;
-	padding:0;
-	line-height:1.5em;
-	font-weight:normal;
-	margin-top:1em;
-	}
+  font-family: 'LeagueGothicRegular', sans-serif; 
+  text-transform:uppercase;
+  margin:0;
+  padding:0;
+  line-height:1.5em;
+  font-weight:normal;
+  margin-top:1em;
+  }
 
-h1.big {	font-size:56px; line-height:1; margin-top:0; }
+h1.big {  font-size:56px; line-height:1; margin-top:0; }
 
 h1 {font-size:43px; margin-top:0;}
 h2 {font-size:32px;}
 h3 {font-size:28px;}
 h4 {font-size:24px;}
 h5 {font-size:20px;}
-h6 {font-size:18px;}	
+h6 {font-size:18px;}  
+
+/*------------------------------------------------------------------------*/
+/** blockquote
+/*------------------------------------------------------------------------*/
+
+blockquote {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.45;
+  padding: 0.25em 40px;
+  position: relative;
+  line-height: 2rem;
+  text-indent: 0px;
+  margin: 3rem 0;
+  
+}
+
+blockquote:before {
+  content: "“";
+  display: block;
+  font-size: 80px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  opacity: 0.5;
+}
+
+blockquote cite:before {
+  content: "— ";
+}
+
+blockquote cite {
+  display: block;
+  font-size: 0.8em;
+  margin-top: 1rem;
+}
 
 
 
 /*------------------------------------------------------------------------*/
-/**	body text
+/** body text
 /*------------------------------------------------------------------------*/
 
-p,dl,ol,ul,pre,table,address,blockquote,fieldset {font-size:16px; line-height:1.6em; padding:0; margin-top:1em; }
+p,dl,ol,ul,pre,table,address,fieldset {font-size:16px; line-height:1.6em; padding:0; margin-top:1em; }
 aside p { }
 ul li ul, ul li ol, ol li ol { margin-left: 20px; margin-top: 0; }
 p.big {font-size:22px; font-weight:100;}
@@ -65,38 +103,37 @@ ul, ol {margin-left:20px;}
 
 
 /*------------------------------------------------------------------------*/
-/**	Logo and Navigation
+/** Logo and Navigation
 /*------------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------------------*/
-/**	Nav  
+/** Nav  
 /*------------------------------------------------------------------------*/
 
 
 
-body > header > nav > ul {
-	font-size:32px;
-	text-transform:uppercase;
-	font-family: 'LeagueGothicRegular', sans-serif; 
-	}
-body > header > nav > ul {list-style:none;}
+.nav > ul {
+  font-size:32px;
+  text-transform:uppercase;
+  font-family: 'LeagueGothicRegular', sans-serif; 
+  }
+.nav > ul {list-style:none;}
 
 
 /*------------------------------------------------------------------------*/
 /** logo
 /*------------------------------------------------------------------------*/
 
-header.global hgroup { }
-header.global h1 { line-height:1em;}
-header.global h1 {font-size:70px; margin:0; padding:0;}
-header.global p { 
-	font-size:18px; 
-	font-family: 'LeagueGothicRegular', sans-serif; 
-	margin:0; padding:0;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	font-style:italic;
+.logo h1 { line-height:1em;}
+.logo h1 {font-size:70px; margin:0; padding:0;}
+.logo p { 
+  font-size:18px; 
+  font-family: 'LeagueGothicRegular', sans-serif; 
+  margin:0; padding:0;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-style:italic;
 }
 
 
@@ -104,7 +141,7 @@ header.global p {
 /** post styling
 /*------------------------------------------------------------------------*/
 
-section.post-content h1, aside section h3  {}
+section.post-content h1, .aside section h3  {}
 a.more-link {display:block; margin-top:10px; margin-bottom:50px }
 
 

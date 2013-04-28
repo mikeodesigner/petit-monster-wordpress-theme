@@ -1,24 +1,24 @@
+/* Author: mikeo.designer */
 /* code == poetry */
 /* global elemetns layout */
-.container												{	width:1000px; margin:0 auto; }
-	.header 												{ width:100%; float:left; position:relative; text-align:right; height:100%; display:table; } 
-		.logo 												{	float:left;}
-		.nav													{ display:table-cell; vertical-align:middle; background: transparent; }
-			.nav > ul 									{ display:block; float:right; margin:0; clear:both; } 
-			.nav > ul > li						 	{ display:inline-block; padding:0 20px; }
-			.nav > ul > li:last-child		{ padding-right:0; }
-			.nav > ul > li:first-child	{ padding-left:0; }
-	.section 												{ width: 70%; float: left; }
-	.home .section 									{ width: 100%; float: left; }
-	.aside													{ width: 30%; float: right; }
-	.footer 												{ width: 100%; clear: left; float:left; text-align:left;}
-	.footer p 											{ margin: 0;}
-                              						
+.container                        { width:1000px; margin:0 auto; }
+  .header                         { width:100%; float:left; position:relative; text-align:right; height:100%; display:table; }
+    .logo                         { float:left;}
+    .nav                          { display:table-cell; vertical-align:middle; background: transparent; }
+      .nav > ul                   { display:block; float:right; clear:both; margin:0; }
+      .nav > ul > li              { display:inline-block; padding:0 20px; }
+      .nav > ul > li:last-child   { padding-right:0; }
+      .nav > ul > li:first-child  { padding-left:0; }
+  .section                        { width: 70%; float: left; }
+  .home .section                  { width: 100%; float: left; }
+  .aside                          { width: 30%; float: right; }
+  .footer                         { width: 100%; clear: left; float:left; text-align:left;}
+  .footer p                       { margin: 0;}
+
 
 /* global vertical and horisontal white space */
 .main > * {padding:3rem 40px;}
 .nav > ul {padding-top:1rem; padding-bottom:1rem;}
-.main 	{padding:0; margin:0;}/* ensures layouts won't break because padding changes width */
+.main   {padding:0; margin:0;}/* ensures layouts won't break because padding changes width */
 
-
-
+                      

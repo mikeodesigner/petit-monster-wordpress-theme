@@ -1,213 +1,214 @@
+/* Author: mikeo.designer */
 /* google fonts import */
 
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
 
 
 body {
-	font-family: Arial; /*main body font face */
+  font-family: Arial; /*main body font face */
 }
 
 
 /* this part makes sure EM size is the typography baseline size to keep vertical rythm with various layouts padding */
 html {
-	font-size: 12px
+  font-size: 12px
 }
 /* baseline size */
 body {
-	font-size: 16px;
-	line-height: 2rem;
+  font-size: 16px;
+  line-height: 2rem;
 }
 /* main font size */
 
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Abril Fatface', serif;
-	font-style: normal;
-	font-weight: bold;
-	margin: 2rem 0 1rem 0;
+  font-family: 'Abril Fatface', serif;
+  font-style: normal;
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
 }
 
 h1 {margin-top:0;}
 
 p, ul, form, figure, address, table, ol {
-	line-height: 2rem;
-	margin-bottom: 2rem;
-	font-style: normal;
-	font-weight: 400;
-	font-family: Arial;
-	font-size: 14px;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Arial;
+  font-size: 14px;
 }
 
 ul, ol {
-	margin-left: 2.5em;
-	list-style-position: outside;
+  margin-left: 2.5em;
+  list-style-position: outside;
 }
 ul ul, ol ol {
-	margin: 0 0 0 2.5em;
+  margin: 0 0 0 2.5em;
 }
 
 label {
-	display: block;
+  display: block;
 }
 
 
 h1 {
-	margin-bottom: 25px;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 58px;
-	line-height: 1.2em;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 58px;
+  line-height: 1.2em;
 }
 
 h2 {
-	line-height: 1em;
-	margin-bottom: 20px;
-	font-size: 2.625em;
-	font-style: normal;
-	font-weight: 400;
+  line-height: 1em;
+  margin-bottom: 20px;
+  font-size: 2.625em;
+  font-style: normal;
+  font-weight: 400;
 }
 
 h3 {
-	font-style: normal;
-	font-weight: 400;
-	font-family: 'Abril Fatface';
-	font-size: 26px;
-	line-height: 53px;
-	margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Abril Fatface';
+  font-size: 26px;
+  line-height: 53px;
+  margin-bottom: 10px;
 }
 
 
 h4 {
-	font-size: 24px;
-	font-weight: 400;
-	font-style: normal;
-	line-height: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 50px;
 }
 
 
 h5 {
-	font-size: 1.1em;
-	font-weight: 400;
+  font-size: 1.1em;
+  font-weight: 400;
 }
 
 h6 {
-	font-size: 1em;
-	font-weight: 400;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 
 blockquote {
-	font-family: Georgia,serif;
-	font-size: 18px;
-	font-style: italic;
-	line-height: 1.45;
-	padding: 0.25em 40px;
-	position: relative;
+  font-family: Georgia,serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.45;
+  padding: 0.25em 40px;
+  position: relative;
 }
 
 blockquote:before {
-	content: "“";
-	display: block;
-	font-size: 80px;
-	left: 0px;
-	position: absolute;
-	top: 20px;
-	opacity: 0.5;
+  content: "“";
+  display: block;
+  font-size: 80px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  opacity: 0.5;
 }
 
 blockquote cite:before {
-	content: "— ";
+  content: "— ";
 }
 
 
 blockquote {
-	font-style: italic;
-	font-weight: 300;
-	font-family: Lato;
-	line-height: 2rem;
-	font-size: 1.4em; /* 1.4 x 14 = 19px */
-	text-indent: 0px;
-	margin: 3rem 0;
+  font-style: italic;
+  font-weight: 300;
+  font-family: Lato;
+  line-height: 2rem;
+  font-size: 1.4em; /* 1.4 x 14 = 19px */
+  text-indent: 0px;
+  margin: 3rem 0;
 }
 
 
 blockquote cite {
-	display: block;
-	font-size: 0.8em;
-	margin-top: 1rem;
+  display: block;
+  font-size: 0.8em;
+  margin-top: 1rem;
 }
 
 
 /* main navigation and sidebar typography */
 
-body > header > nav > ul, aside ul {
-	list-style: none;
-	font-style: normal;
-	margin-bottom: 0px;
-	font-family: 'Abril Fatface', serif;
+.nav > ul, .aside ul {
+  list-style: none;
+  font-style: normal;
+  margin-bottom: 0px;
+  font-family: 'Abril Fatface', serif;
 }
 
 
-aside h2 {
-	margin-top: 0;
+.aside h2 {
+  margin-top: 0;
 }
-aside ul {
-	margin-left: 0;
-}
-
-body > header > nav > ul li {
-	font-size: 1em;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+.aside ul {
+  margin-left: 0;
 }
 
-aside ul a {
-	text-decoration: none;
+.nav > ul li {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.aside ul a {
+  text-decoration: none;
 }
 
 
 
 p.nav a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
-body > header > nav > ul {
-	font-style: normal;
-	font-weight: 400;
-	font-family: Georgia;
-	text-transform: uppercase;
-	margin-bottom: 0px;
-	line-height: 34px;
-	letter-spacing: 1px;
-	font-size: 14px;
+.nav > ul {
+  font-style: normal;
+  font-weight: 400;
+  font-family: Georgia;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 
 
 /* custom clusses */
 
-p big {
-	font-size: 20px;
-	font-weight: 400;
-	font-style: italic;
-	font-family: Georgia;
-	line-height: 30px;
-	margin-bottom: 0;
+p.big {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Georgia;
+  line-height: 30px;
+  margin-bottom: 0;
 }
 
 h1.big {
-	font-size: 70px;
-	line-height: 73px;
-	margin-top: 0;
+  font-size: 70px;
+  line-height: 73px;
+  margin-top: 0;
 }
 
 h1 big  {
-	margin-bottom: 0px;
-	text-transform: none;
-	font-size: 42px;
-	letter-spacing: 0px;
-	margin-top: 0;
+  margin-bottom: 0px;
+  text-transform: none;
+  font-size: 42px;
+  letter-spacing: 0px;
+  margin-top: 0;
 }
 
 

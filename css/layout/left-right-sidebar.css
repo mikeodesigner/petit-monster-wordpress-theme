@@ -1,22 +1,23 @@
+/* Author: mikeo.designer */
 /* code == poetry */
 /* global elemetns layout */
-.container							{ width: 1100px; margin: 0 auto; }
-	.header 							{ text-align: center; } 
-		.header .logo 			{ clear: both; margin: 0 auto; }
-		.nav								{ width: 25%; float: right; text-align: left; }
-			.nav > ul 				{ margin: 0; } 
-				.nav > ul li		{ display: block; padding:0;}
-	.section 							{ width: 75%; float: left; }
-	.aside								{ width: 25%; float: right; clear:right; }
-		.aside >	section 	{ width: 100%; float: left; padding-top: 1em; }
-	.footer 							{ clear: both; margin:0; text-align: center; }
-	.footer p 						{ margin:0; padding: 1em 0; }
+.container              { width: 1100px; margin: 0 auto; }
+  .header               { text-align: center; } 
+    .header .logo       { clear: both; margin: 0 auto; }
+    .nav                { width: 25%; float: right; text-align: left; }
+      .nav > ul         { margin: 0; } 
+        .nav > ul li    { display: block; padding:0;}
+  .section              { width: 75%; float: left; }
+  .aside                { width: 25%; float: right; clear:right; }
+    .aside >  section   { width: 100%; float: left; padding-top: 1em; }
+  .footer               { clear: both; margin:0; text-align: center; }
+  .footer p             { margin:0; padding: 1em 0; }
   
 
 /* vertical and horisontal white space */
-.main > *							{ 
-	padding: 2rem 40px; 
-	 }
+.main > *             { 
+  padding: 2rem 40px; 
+   }
 
 .main {padding:0; margin:0;}
 

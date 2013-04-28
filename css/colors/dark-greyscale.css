@@ -1,16 +1,16 @@
 
 /*------------------------------------------------------------------------*/
-/*		color CSS 
-/*		by Mikeo.designer 
+/*    color CSS 
+/*    by Mikeo.designer 
 /*------------------------------------------------------------------------*/
 
 
 body {
-	background:#1E1E1E;                /* main background color */
-	color:#838383;                     /* main text color */
+  background:#1E1E1E;                /* main background color */
+  color:#838383;                     /* main text color */
 }
 
-a { color:#BCBEBC;}					   /* main links color */
+a { color:#BCBEBC;}            /* main links color */
 a:visited {} 
 a:hover { color:#E0E0E0;}
 a:focus { outline: 0;}
@@ -26,7 +26,7 @@ p big { color:#B6B6B6;}
 code { background:#778F5F; color:#000;}
 
 /*------------------------------------------------------------------------*/
-/**	Nav  
+/** Nav  
 /*------------------------------------------------------------------------*/
 
 .nav ul a{ color:#6F6F6F}

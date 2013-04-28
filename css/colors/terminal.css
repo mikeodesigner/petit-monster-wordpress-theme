@@ -1,15 +1,15 @@
 /*------------------------------------------------------------------------*/
-/*		color CSS 
-/*		by Mikeo.designer 
+/*    color CSS 
+/*    by Mikeo.designer 
 /*------------------------------------------------------------------------*/
 
 
 body {
-	background:#26242D;                /* main background color */
-	color:#868589;                     /* main text color */
+  background:#26242D;                /* main background color */
+  color:#868589;                     /* main text color */
 }
 
-a {color:#DFDA73;}					   /* main links color */
+a {color:#DFDA73;}             /* main links color */
 a:visited {} 
 a:hover {}
 a:focus {outline: 0;}

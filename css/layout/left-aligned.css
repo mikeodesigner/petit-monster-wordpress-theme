@@ -1,36 +1,37 @@
+/* Author: mikeo.designer */
 /* code == poetry */
-/* global elemetns layout */               		
-	.container												 { width: 1000px; margin: 0 auto; }
-		.header													 { width: 100%; text-align: left; } 
-			.logo 									 			 { }
-			.nav 												 	 { }
-				.nav > ul 								 	 { display: block; margin: 0; } 
-				.nav > ul li							 	 { display: inline-block; padding: 0 20px; }
-				.nav > ul li:last-child	 		 { padding-right: 0; }
-				.nav > ul li:first-child 		 { padding-left: 0; }
-		.section												 { width: 70%; clear: both; float: left; }
-	  .aside	              					 { width: 30%; float:right; }
-		.aside > section								 { width: 100%; float: left; padding-top: 1em; }
-		.footer	 												 { clear:both; }
-		.footer > p 	 									 { }
-                              								
+/* global elemetns layout */                  
+  .container                         { width: 1000px; margin: 0 auto; }
+    .header                          { width: 100%; text-align: left; } 
+      .logo                          { }
+      .nav                           { }
+        .nav > ul                    { display: block; margin: 0; } 
+        .nav > ul li                 { display: inline-block; padding: 0 20px; }
+        .nav > ul li:last-child      { padding-right: 0; }
+        .nav > ul li:first-child     { padding-left: 0; }
+    .section                         { width: 70%; clear: both; float: left; }
+    .aside                           { width: 30%; float:right; }
+    .aside > section                 { width: 100%; float: left; padding-top: 1em; }
+    .footer                          { clear:both; }
+    .footer > p                      { }
+                                              
 
 /* vertical and horisontal white space */
 
 .logo, .nav, .section, .aside, .footer {
-	 	padding: 2rem 40px; 
-		 box-sizing:border-box;
-		-moz-box-sizing:border-box;
-		-webkit-box-sizing:border-box;
-	}
+    padding: 2rem 40px; 
+     box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+  }
 
 
 /*full width home page */
-.home .section								  			{ width: 100%; }
+.home .section                        { width: 100%; }
 
 
 
 
 
 
-									
+                  
