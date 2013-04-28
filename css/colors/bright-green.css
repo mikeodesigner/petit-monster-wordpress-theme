@@ -1,0 +1,35 @@
+body {
+	background:#B3CC57;
+	color:#474F34;
+}
+
+a {color:#597B1F;}
+a:visited {} 
+a:hover {}
+a:focus {outline: 0;}
+
+h2, h3, h4 {color:#FEFFF5;}
+h1 {color:#ECF081;}
+
+
+h1.big {}
+p big {}
+
+/*------------------------------------------------------------------------*/
+/**	Nav  
+/*------------------------------------------------------------------------*/
+
+.header {}
+.nav ul a{color:#FFF;}
+.nav ul li.current_page_item a{color:#ECF081;}
+.nav ul {}
+
+
+/*------------------------------------------------------------------------*/
+/** logo
+/*------------------------------------------------------------------------*/
+
+.header hgroup { }
+.header h1, .header p {}
+.header h1 {color:#FFF;}
+.header p {color:#808080}

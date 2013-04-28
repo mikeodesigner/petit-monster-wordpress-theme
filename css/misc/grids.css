@@ -1,0 +1,54 @@
+/* Simple grid system_______________________________________*/
+
+/* 
+truly simple grid system inspired by 
+http://css-tricks.com/dont-overthink-it-grids/ 
+http://960.gs/
+
+Grid has 2% gutter and is completely fluid and responsive 
+supports 6 and 8 columns 
+
+*/
+
+
+
+[class*='col-']
+{
+	display: inline;
+	float: left;
+	margin-right: 2%;
+	word-wrap:break-word;
+	box-sizing: border-box;
+}
+
+
+.grid-row [class*='col-']:last-of-type {
+  margin-right:0;
+border:1px soli;
+}
+
+
+.grid-row {
+	clear:both;
+	width:100%;
+}
+
+.col-1-6 {width:15%}
+.col-2-6 {width:32%;}
+.col-3-6, .gcol-4-8, .half {width:49%;}
+.col-4-6 {width:66%;}
+.col-5-6 {width:81.5%;}
+
+.col-1-8 {width:10.75%;}
+.col-2-8 {width:23.5%;}
+.col-3-8 {width:36.25%;}
+.col-4-8 {width:60.875%;}
+.col-5-8 {width:73.25%;}
+.col-6-8 {width:85.625%;}
+
+.col-8-8, .col-6-6, .full {width:100%;}
+
+.grid-row:after {
+  content: "";
+  display: table;
+  clear: both;}

@@ -1,0 +1,12 @@
+/* Simple reset_______________________________________*/
+
+/* reset is very minimal to make use of most of defaults */ 
+
+
+
+ul, li, ol, body {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {list-style:none;}

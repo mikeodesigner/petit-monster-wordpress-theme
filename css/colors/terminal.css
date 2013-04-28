@@ -1,0 +1,26 @@
+/*------------------------------------------------------------------------*/
+/*		color CSS 
+/*		by Mikeo.designer 
+/*------------------------------------------------------------------------*/
+
+
+body {
+	background:#26242D;                /* main background color */
+	color:#868589;                     /* main text color */
+}
+
+a {color:#DFDA73;}					   /* main links color */
+a:visited {} 
+a:hover {}
+a:focus {outline: 0;}
+
+
+h1, h2, h3, h4, h5 {color:#8CBC7A;}
+
+
+
+
+
+hr {background-color:#00998A; border-color:#113646;} /* hr line colors */
+
+p big {color:#FFFEFE}

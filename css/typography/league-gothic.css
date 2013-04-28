@@ -1,0 +1,122 @@
+/*------------------------------------------------------------------------*/
+/* font import
+/*------------------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('league-gothic/League_Gothic-webfont.eot');
+    src: url('league-gothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('league-gothic/League_Gothic-webfont.woff') format('woff'),
+         url('league-gothic/League_Gothic-webfont.ttf') format('truetype'),
+         url('league-gothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*------------------------------------------------------------------------*/
+/* global font settings
+/*------------------------------------------------------------------------*/
+
+body {
+	font-size:16px;
+	font-family: Georgia,Times,'Times New Roman',serif ;
+	line-height:1.5rem; 
+}
+
+
+/*------------------------------------------------------------------------*/
+/**	headings 
+/*------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'LeagueGothicRegular', sans-serif; 
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	line-height:1.5em;
+	font-weight:normal;
+	margin-top:1em;
+	}
+
+h1.big {	font-size:56px; line-height:1; margin-top:0; }
+
+h1 {font-size:43px; margin-top:0;}
+h2 {font-size:32px;}
+h3 {font-size:28px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}	
+
+
+
+/*------------------------------------------------------------------------*/
+/**	body text
+/*------------------------------------------------------------------------*/
+
+p,dl,ol,ul,pre,table,address,blockquote,fieldset {font-size:16px; line-height:1.6em; padding:0; margin-top:1em; }
+aside p { }
+ul li ul, ul li ol, ol li ol { margin-left: 20px; margin-top: 0; }
+p.big {font-size:22px; font-weight:100;}
+ul, ol {margin-left:20px;}
+
+
+
+
+/*------------------------------------------------------------------------*/
+/**	Logo and Navigation
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------*/
+/**	Nav  
+/*------------------------------------------------------------------------*/
+
+
+
+body > header > nav > ul {
+	font-size:32px;
+	text-transform:uppercase;
+	font-family: 'LeagueGothicRegular', sans-serif; 
+	}
+body > header > nav > ul {list-style:none;}
+
+
+/*------------------------------------------------------------------------*/
+/** logo
+/*------------------------------------------------------------------------*/
+
+header.global hgroup { }
+header.global h1 { line-height:1em;}
+header.global h1 {font-size:70px; margin:0; padding:0;}
+header.global p { 
+	font-size:18px; 
+	font-family: 'LeagueGothicRegular', sans-serif; 
+	margin:0; padding:0;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-style:italic;
+}
+
+
+/*------------------------------------------------------------------------*/
+/** post styling
+/*------------------------------------------------------------------------*/
+
+section.post-content h1, aside section h3  {}
+a.more-link {display:block; margin-top:10px; margin-bottom:50px }
+
+
+/*------------------------------------------------------------------------*/
+/** footer 
+/*------------------------------------------------------------------------*/
+
+footer p {}
+
+
+
+
+
+
+

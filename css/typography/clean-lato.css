@@ -1,0 +1,187 @@
+/* google fonts import */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+
+
+body {
+	font-family: 'PT Sans', sans-serif; /*main body font face */
+}
+
+
+/* this part makes sure EM size is the typography baseline size to keep vertical rythm with various layouts padding */
+html {
+	font-size: 12px
+}
+/* baseline size */
+body {
+	font-size: 14px;
+	line-height: 2rem;
+}
+/* main font size */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 300;
+	margin: 2rem 0 1rem 0;
+	padding:0;
+}
+
+p, ul, form, figure, address, table {
+	font-weight: 400;
+	margin: 1rem 0 1rem 0;
+	text-indent: 0px;
+}
+
+ul, ol {
+	margin-left: 2.5em;
+	list-style-position: outside;
+}
+ul ul, ol ol {
+	margin: 0 0 0 2.5em;
+}
+
+label {
+	display: block;
+}
+
+
+h1 {
+	margin: 0 0 2rem 0;
+	font-size: 3.6em; /* 3.75 x 14 = 50px */
+	line-height: 5rem;
+}
+
+h2 {
+	line-height: 4rem;
+	font-size: 2.6em;
+}
+
+h3 {
+	font-size: 2.3em;
+	line-height: 3rem;
+}
+
+h4 {
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+h5 {
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+
+blockquote:before {
+	content: "“";
+	display: block;
+	font-size: 80px;
+	left: 0px;
+	position: absolute;
+	top: 20px;
+	opacity: 0.5;
+}
+
+blockquote cite:before {
+	content: "— ";
+}
+
+blockquote {
+	position: relative;
+	padding-left: 30px;
+	font-style: italic;
+	font-weight: 300;
+	font-family: Lato;
+	line-height: 2rem;
+	font-size: 1.4em; /* 1.4 x 14 = 19px */
+	text-indent: 0px;
+	margin: 3rem 0;
+}
+
+
+blockquote cite {
+	display: block;
+	font-size: 0.8em;
+	margin-top: 1rem;
+}
+
+
+/* main navigation and sidebar typography */
+
+.nav > ul, .aside ul {
+	list-style: none;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+
+
+.aside h2 {
+	margin-top: 0;
+}
+.aside ul {
+	margin-left: 0;
+}
+
+.nav > ul li, .aside ul li {
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-family: Lato;
+	text-transform: uppercase;
+}
+
+.aside ul a {
+	text-decoration: none;
+}
+/* loop */
+
+
+article.loop time {font-style:italic; margin:0;}
+
+
+
+/* bigger text usually 'lead' or 'hero' */
+
+h1.big {
+ font-size: 5em;
+ font-style: normal;
+ font-weight: 100;
+ line-height: 5rem;
+ text-transform: uppercase;
+}
+
+p.big {
+	font-size: 1.6em;
+	line-height: 3rem;
+	font-family: Lato;
+	font-weight: 300;
+	margin: 1rem 0 3rem 0;
+	font-style: italic;
+}
+
+/* logo */
+.logo h1 {
+
+	font-family: Lato;
+	font-size: 2em;
+	font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 3rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+	
+}
+
+
+

@@ -1,0 +1,186 @@
+/* google fonts import */
+
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700italic,700,600italic,600,400italic,300italic,300,800italic);
+
+
+
+body {
+	font-family: 'Gentium Book Basic', serif; /*main body font face */
+}
+
+
+/* this part makes sure EM size is the typography baseline size to keep vertical rythm with various layouts padding */
+html {
+	font-size: 12px
+}
+/* baseline size */
+body {
+	font-size: 16px;
+	line-height: 2rem;
+}
+/* main font size */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	margin: 2rem 0 1rem 0;
+	letter-spacing: -1px;
+}
+
+p, ul, form, figure, address, table {
+	font-weight: 400;
+	margin: 1rem 0 1rem 0;
+	text-indent: 0px;
+}
+
+ul, ol {
+	margin-left: 2.5em;
+	list-style-position: outside;
+}
+ul ul, ol ol {
+	margin: 0 0 0 2.5em;
+}
+
+label {
+	display: block;
+}
+
+
+h1 {
+	margin: 0 0 2rem 0;
+	font-size: 2.2em; /* 3.75 x 14 = 50px */
+	line-height: 4rem;
+	font-weight: 800;
+}
+
+h2 {
+	line-height: 4rem;
+	font-size: 1.8em;
+	font-weight: 800;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 3rem;
+	font-weight: 800;
+}
+
+h4 {
+	font-size: 1.3em;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+h5 {
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+/* blockquote */
+
+blockquote:before {
+	content: "“";
+	display: block;
+	font-size: 80px;
+	left: 0px;
+	position: absolute;
+	top: 20px;
+	opacity: 0.5;
+}
+
+blockquote cite:before {
+	content: "— ";
+}
+
+
+blockquote {
+	position: relative;
+	padding-left: 40px;
+	font-style: italic;
+	font-weight: 300;
+	font-family: Lato;
+	line-height: 2rem;
+	font-size: 1.4em; /* 1.4 x 14 = 19px */
+	text-indent: 0px;
+	margin: 3rem 0;
+}
+
+
+blockquote cite {
+	display: block;
+	font-size: 0.8em;
+	margin-top: 1rem;
+}
+
+
+/* main navigation and sidebar typography */
+
+.nav > ul, .aside ul {
+	list-style: none;
+	font-style: normal;
+	margin-bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 0;
+}
+
+.nav > ul {
+	font-weight: 700;
+	font-size: 0.9em;
+}
+
+
+.aside h2 {
+	margin-top: 0;
+}
+.aside ul {
+	margin-left: 0;
+}
+
+.nav > ul li {
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.aside ul a {
+	text-decoration: none;
+}
+
+
+/* lead text */
+
+p.big {
+  font-family: 'Open Sans',sans-serif;
+   font-size: 1.3em;
+   font-weight: 200;
+   line-height: 3rem;
+   margin: 1rem 0;
+}
+
+h1.big {
+	font-size: 4em;
+	font-style: normal;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
+
+/* logo */
+
+.logo h1 {
+	margin-bottom: 0px;
+	font-size: 2em;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-style: normal;
+	line-height: 3rem;
+}

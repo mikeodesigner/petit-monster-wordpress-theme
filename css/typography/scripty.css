@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,300italic,300,100italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700italic,700,600italic,600,400italic,300italic,300,800italic);
+
+
+html {font-size:12px;}
+
+body {
+		font-family:opne ;
+		font-size:13px;
+		font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 58px;
+    line-height: 1.2em;
+    font-family: 'Dancing Script';
+		margin-top:0;
+}
+
+h2 {
+    line-height: 1.2em;
+    margin-bottom: 24px;
+    font-size: 2.625em;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Dancing Script';
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Dancing Script';
+		line-height:1.4em;
+}
+
+p {
+    line-height: 1.5em;
+    margin-bottom: 15px;
+
+}
+
+
+ul, ol {
+	margin:0 0 0 2.5em;
+	list-style-position: outside;
+}
+ul ul, ol ol {
+	margin: 0 0 0 2.5em;
+}
+
+
+
+/* blockquote  */
+
+
+
+blockquote cite:before {
+   content: "— ";
+}
+
+
+blockquote {
+	position:relative;
+	padding:0 120px;
+	font-weight: 200;
+	line-height: 1.4em;
+	font-size: 24px; /* 1.4 x 14 = 19px */ 
+	text-indent: 0px;
+	margin: 40px 0;
+    font-family: 'Dancing Script';
+text-align:center;
+}
+
+
+blockquote cite {
+	display:block;
+	font-size:18px;
+	margin-top:1rem;
+	   	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+
+
+
+p big {
+    line-height: 1.5em;
+    font-size: 24px;
+   	font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+h1.big {
+    font-size: 96px;
+    line-height: 1em;
+    font-weight: 400;
+    font-style: normal;		
+		margin-top:0;
+}
+
+
+h1 big  {
+    margin-bottom: 0px;
+    text-transform: none;
+    font-size: 42px;
+}
+
+h3 {
+    font-style: normal;
+    font-family: 'Dancing Script';
+    font-size: 29px;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+
+
+
+body > header > nav > ul {
+	font-family: 'Josefin Sans', sans-serif;
+	margin:0;
+		font-weight:400;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-transform: lowercase;
+    line-height: 1.5555555555555556em;
+}
+

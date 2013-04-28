@@ -1,0 +1,27 @@
+/*------------------------------------------------------------------------*/
+/*		color CSS 
+/*		by Mikeo.designer 
+/*------------------------------------------------------------------------*/
+
+
+body {
+	background:#BCEAB8;
+	color:#555;
+}
+
+a {color:#000;}
+a:visited {} 
+a:hover {}
+a:focus {outline: 0;}
+
+
+h1 {color:#444;}
+h2 {color:#444;}
+h3 {color:#444;}
+
+
+.container {
+	background:#fff;	
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+	border-radius:3px;
+	}

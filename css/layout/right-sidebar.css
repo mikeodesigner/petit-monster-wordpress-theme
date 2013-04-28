@@ -1,0 +1,20 @@
+/* code == poetry */
+/* global elemetns layout */
+.container							{	width:1100px; margin:5rem auto; position:relative; display:block;}
+	.header 							{ width:20%; float:right; } 
+		.logo 							{ }
+		.nav								{ width:100%; float:left; display:inline; box-sizing:border-box; }
+			.nav > ul 			 	{ margin:0; } 
+			.nav > ul > li	 	{ display:block; padding:0; }
+	.section 							{ width:80%; float:left; }
+	.home .section 				{ }
+	.aside								{ width:20%; clear:right; float:right; }
+	.footer  							{ width:20%; clear:right; float:right; text-align:left;}
+		.footer p						{ margin: 0;}
+                              						
+
+/* global vertical and horisontal white space */
+.main > * {padding:3rem;}
+.main 	{padding:0; margin:0;}/* ensures layouts won't break because padding changes width */
+
+					

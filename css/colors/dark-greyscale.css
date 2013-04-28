@@ -1,0 +1,34 @@
+
+/*------------------------------------------------------------------------*/
+/*		color CSS 
+/*		by Mikeo.designer 
+/*------------------------------------------------------------------------*/
+
+
+body {
+	background:#1E1E1E;                /* main background color */
+	color:#838383;                     /* main text color */
+}
+
+a { color:#BCBEBC;}					   /* main links color */
+a:visited {} 
+a:hover { color:#E0E0E0;}
+a:focus { outline: 0;}
+
+
+h1,h2, h3, h4, h5 { color:#E8E8E8;}
+
+
+hr { background-color:#626262; border-color:#2F2F2F;} /* hr line colors */
+p big { color:#B6B6B6;}
+
+
+code { background:#778F5F; color:#000;}
+
+/*------------------------------------------------------------------------*/
+/**	Nav  
+/*------------------------------------------------------------------------*/
+
+.nav ul a{ color:#6F6F6F}
+.nav ul { list-style:none; }
+

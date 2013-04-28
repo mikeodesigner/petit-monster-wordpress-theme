@@ -1,0 +1,18 @@
+/* code == poetry */
+/* global elemetns layout */
+	.container						{ min-width: 870px; width:80%; max-width:70em; margin: 0 auto; }
+		.header							{ width: 100%; text-align: center; } 
+			.logo 						{ margin: 0 auto; }
+			.nav 							{ }	
+				.nav > ul 			{ display: table; margin: 0 auto; } 
+				.nav > ul li		{ display: inline-block; padding: 1rem 25px; }
+		.section 						{ }
+		.aside  						{ }
+			.aside > section	{ width: 25%; float:left; padding-top:1rem; }
+		.footer							{ clear: both; text-align: center; }
+			.footer > p 			{ margin: 0; padding: 1rem 0; }
+
+
+
+  .logo, .section, .aside, .footer
+	{ padding: 4rem 4%; }.
