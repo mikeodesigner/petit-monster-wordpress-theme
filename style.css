@@ -1,0 +1,107 @@
+/*
+Theme Name: Petit
+Description: Petit framework demo
+Author: Mikeo 
+Author URI: http://wptheming.com
+Version: 0.3
+*/
+
+
+/* Reset it all first ___________________________________
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+
+*/
+
+
+ ul, li, ol, body {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {list-style:none;}
+
+
+.header a {text-decoration:none;}
+
+#nav_link {display:none;}
+
+hr {
+	border:1px solid;
+	border-color:inherit;
+	opacity:0.3;
+	}
+
+/* Simple grid system_______________________________________*/
+
+
+[class*='col-']
+{
+	display: inline;
+	float: left;
+	margin-right: 2%;
+	word-wrap:break-word;
+	box-sizing: border-box;
+}
+
+
+.grid-row [class*='col-']:last-of-type {
+  margin-right:0;
+border:1px soli;
+}
+
+
+.grid-row {
+	clear:both;
+	width:100%;
+}
+
+.col-1-6 {width:15%}
+.col-2-6 {width:32%;}
+.col-3-6, .gcol-4-8, .half {width:49%;}
+.col-4-6 {width:66%;}
+.col-5-6 {width:81.5%;}
+
+.col-1-8 {width:10.75%;}
+.col-2-8 {width:23.5%;}
+.col-3-8 {width:36.25%;}
+.col-4-8 {width:60.875%;}
+.col-5-8 {width:73.25%;}
+.col-6-8 {width:85.625%;}
+
+.col-8-8, .col-6-6, .full {width:100%;}
+
+.grid-row:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+.container:after 
+		{content:''; clear:both; display:block; overflow:hidden !important; visibility:hidden; width:0px; height:0px !important; padding:0px !important; margin:0 !important;}
+
+
+.alignright {float:right;}
+.alignleft {float:left;}
+
+
+/* general post styling */ 
+
+
+

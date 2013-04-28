@@ -1,0 +1,24 @@
+/*! responsive-nav.js v1.0.14 by @viljamis */
+
+
+.js #nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  overflow: hidden;
+  zoom: 1;
+}
+
+#nav.opened {
+  max-height: 9999px;
+}
+
+@media screen and (min-width: 40em) {
+  .js #nav {
+    position: relative;
+    max-height: none;
+  }
+  #nav-toggle {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+
+
+
+/* drop down mobile menu */
+
+.container {margin:0; padding:0; position:relative;}
+
+
+/* header styling changed to fit mobile nicely and work with all layouts */
+
+header.global hgroup { position:absolute;  padding:2rem;}
+header.global hgroup h1 { line-height:2rem; margin:0; padding:0; }
+header.global {min-height:6rem; width:100%; display:block; float:left; }
+
+
+/* global padding  (white space) overwrite to match header */ 
+.global > * {padding:2rem;}
+
+
+
+header.global, footer.global, section.global, aside.global, .container, .content, [class*='col-'] {
+	clear:both;
+	float:none !important;
+	position:static !important;
+	width:100% !important;
+	display:block;
+}
+
+.alignleft, .alignright {margin:0 auto; float:none; clear:both; display:block;}
+
+
+section.global {min-width:320px; max-width:1100px; width:100%; word-wrap:break-word;}
+
+/*typography */
+
+
+h1.big {font-size:3em; text-align:center;}
+p big {text-align:center;}
