@@ -8,8 +8,8 @@
         .nav > ul       { display: table; margin: 0 auto; } 
         .nav > ul li    { display: inline-block; padding: 1rem 25px; }
     .section            { }
-    .aside              { }
-      .aside > section  { width: 25%; float:left; padding-top:1rem; }
+    .aside              { width:100%; float:left;}
+      .aside > section  { width: 25%; float:left;}
     .footer             { clear: both; text-align: center; }
       .footer > p       { margin: 0; padding: 1rem 0; }
 

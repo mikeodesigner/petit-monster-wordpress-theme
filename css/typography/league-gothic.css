@@ -21,6 +21,9 @@
 /* global font settings
 /*------------------------------------------------------------------------*/
 
+html {font-size:12px;}
+
+
 body {
   font-size:16px;
   font-family: Georgia,Times,'Times New Roman',serif ;
@@ -58,10 +61,9 @@ h6 {font-size:18px;}
 blockquote {
   font-size: 24px;
   font-style: italic;
-  line-height: 1.45;
   padding: 0.25em 40px;
   position: relative;
-  line-height: 2rem;
+  line-height: 1.45em;
   text-indent: 0px;
   margin: 3rem 0;
   
@@ -106,6 +108,7 @@ ul, ol {margin-left:20px;}
 /** Logo and Navigation
 /*------------------------------------------------------------------------*/
 
+.header a{text-decoration:none;}
 
 /*------------------------------------------------------------------------*/
 /** Nav  
@@ -114,7 +117,7 @@ ul, ol {margin-left:20px;}
 
 
 .nav > ul {
-  font-size:32px;
+  font-size:28px;
   text-transform:uppercase;
   font-family: 'LeagueGothicRegular', sans-serif; 
   }
@@ -126,7 +129,7 @@ ul, ol {margin-left:20px;}
 /*------------------------------------------------------------------------*/
 
 .logo h1 { line-height:1em;}
-.logo h1 {font-size:70px; margin:0; padding:0;}
+.logo h1 {font-size:54px; margin:0; padding:0;}
 .logo p { 
   font-size:18px; 
   font-family: 'LeagueGothicRegular', sans-serif; 

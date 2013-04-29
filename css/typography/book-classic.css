@@ -158,6 +158,8 @@ blockquote cite {
 }
 
 
+.header a{text-decoration:none;}
+
 /* lead text */
 
 p.big {
@@ -176,6 +178,8 @@ h1.big {
 }
 
 /* logo */
+
+
 
 .logo h1 {
   margin-bottom: 0px;

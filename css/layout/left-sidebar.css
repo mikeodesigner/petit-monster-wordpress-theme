@@ -22,6 +22,8 @@
   -webkit-box-sizing:border-box;
 }
 
+article {margin-bottom:6rem;}
+
 
 article.loop h2 {margin-top:0;}
 

@@ -119,13 +119,14 @@ blockquote cite {
 
 /* main navigation and sidebar typography */
 
+.header a{text-decoration:none;}
+
 .nav > ul, .aside ul {
 	list-style: none;
 	font-style: normal;
 	font-weight: 400;
 	margin-bottom: 0px;
 }
-
 
 .aside h2 {
 	margin-top: 0;

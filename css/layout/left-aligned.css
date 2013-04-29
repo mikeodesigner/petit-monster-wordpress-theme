@@ -27,7 +27,9 @@
 
 
 /*full width home page */
-.home .section                        { width: 100%; }
+.home .section        { width: 100%; }
+
+article.loop          { padding-bottom:30px}
 
 
 

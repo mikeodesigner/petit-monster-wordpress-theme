@@ -1,12 +1,11 @@
-/* Simple reset_______________________________________*/
 
-/* reset is very minimal to make use of most of defaults */ 
+/* Simple reset  */
+/* reset is very minimal to make use of most defaults instead of overwriting */ 
 
-
-
-ul, li, ol, body {
+ul, li, ol, body, html {
 	margin: 0;
 	padding: 0;
 }
 
-nav ul {list-style:none;}
+nav ul  { list-style:none; }                    
+.hidden { visibility:hidden; display:none; }    /* now just used in mobile  */

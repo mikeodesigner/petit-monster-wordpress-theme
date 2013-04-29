@@ -52,3 +52,6 @@ border:1px soli;
   content: "";
   display: table;
   clear: both;}
+  
+.alignleft {float:left;}
+.alignright {float:right;}

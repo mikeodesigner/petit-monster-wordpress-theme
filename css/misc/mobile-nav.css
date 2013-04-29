@@ -1,0 +1,122 @@
+/* this are basic moble layout styles along with pure CSS mobile nav 
+please add:
+   id="top"                                  - to your main container  
+   <a href="#nav" id="nav_link"></a>         - just before <nav>
+   <a id="close_nav_link" href="#top"></a>   - just before </nav>
+   
+don't use other mobile layout styles or it might break   
+
+*/
+
+
+body {margin:0; padding:0; position:relative; width:100%; }
+
+/* global padding  (white space) overwrite to match header */ 
+.section, .aside, .footer { 
+  padding: 2rem;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.main { 
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.section { clear:both;}
+  
+.nav      { padding: 0 0 0 2rem;}
+.nav ul   { padding-left: 0; margin-left: 0;}  /* navigation left padding reset */
+
+
+
+/* header styling changed to fit mobile nicely and work with all layouts */
+.header .logo     { position:absolute;  padding: 2rem;}
+.header .logo h1 { line-height: 2rem; margin:0; padding: 0; }
+.header   { min-height: 6rem; width: 100%; display: block; }
+
+
+
+/* some typography tweaks  */
+h1.big  {font-size:3em; text-align:center;}
+p.big   {text-align:center;}
+
+.alignleft, .alignright {
+ display: block;
+ margin: 0 auto;
+ clear:both;
+}
+
+
+a#nav_link, a#close_nav_link {
+	position:absolute; 
+	top:2rem; 
+	right:2rem; 
+	display:block;
+	padding:0;
+	margin:0;
+	z-index:1000;
+  border-bottom: 17px double black; 
+  border-top: 6px solid black; 
+  content:"";
+  height: 5px; 
+  width:30px;
+  visibility:visible;
+	}
+
+a#close_nav_link {visibility:hidden; border-color:#FFF;}
+
+.header .nav { 
+	float:none; 
+	width:100%; 
+	clear:both; 
+	display:block;
+	border-top:6rem solid transparent;
+	-moz-background-clip: padding-box;     /* Firefox 3.6 */
+  -webkit-background-clip: padding-box;  /* Safari 4? Chrome 6? */
+  background-clip: padding-box;
+}
+
+.nav ul { 
+	display:block;
+	padding-top:0;
+	padding-bottom:0;
+   -moz-transition: padding 0.2s;
+    -ms-transition: padding 0.2s;
+     -o-transition: padding 0.2s;
+-webkit-transition: padding 0.2s;
+        transition: padding 0.2s;
+}
+
+
+.nav > ul > li  {
+	height:0;
+	line-height:3rem;
+	overflow:hidden;
+	float:none;
+	display:block;
+	padding:0;
+	margin:0;
+     -moz-transition: height 0.2s;
+      -ms-transition: height 0.2s;
+       -o-transition: height 0.2s;
+  -webkit-transition: height 0.2s;
+          transition: height 0.2s;
+}
+
+.nav:target  > ul > li  {
+	height:3rem;
+}
+
+
+.nav:target {
+	height:auto;
+	margin-bottom:2rem;
+	border-top:6rem solid transparent;
+	background-clip: padding-box;
+  }
+
+.nav:target a#close_nav_link { visibility:visible;}
+.nav:target  > ul {padding-top:1rem; padding-bottom:1rem;}

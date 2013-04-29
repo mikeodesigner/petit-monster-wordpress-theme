@@ -1,0 +1,19 @@
+/* very basic mobile layout to go with typography and colors */
+
+.main {
+  padding:2rem;
+   box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  } /*some global padding to main elements */
+
+.nav, .nav ul {padding-left:0; margin-left:0;}  /* navigation left padding reset */
+
+h1.big {font-size:3em; text-align:center;}
+p.big {text-align:center;}
+
+.alignleft, .alignright {
+   display: block;
+   margin: 0 auto;
+   clear:both;
+}

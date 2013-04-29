@@ -188,6 +188,9 @@ p.nav a:link {
 
 /* custom clusses */
 
+.header a{text-decoration:none;}
+
+
 p.big {
   font-size: 20px;
   font-weight: 400;
@@ -203,7 +206,7 @@ h1.big {
   margin-top: 0;
 }
 
-h1 big  {
+.logo h1  {
   margin-bottom: 0px;
   text-transform: none;
   font-size: 42px;

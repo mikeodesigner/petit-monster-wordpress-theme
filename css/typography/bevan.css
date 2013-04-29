@@ -125,14 +125,18 @@ blockquote cite {
   text-align: right;
 }
 
+
 /* loop styles */
+
 
 time { font-style:italic;}
 .more-link {display:block;}
 .more-link:after {content:' →';}
 
-/* custom styles */
 
+
+/* custom styles */
+.header a{text-decoration:none;}
 
 .logo h1  {
   font-size: 34px;

@@ -8,9 +8,9 @@
 html {font-size:12px;}
 
 body {
-		font-family:opne ;
-		font-size:13px;
-		font-family: 'Open Sans', sans-serif;
+    font-family:opne ;
+    font-size:13px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
     font-size: 58px;
     line-height: 1.2em;
     font-family: 'Dancing Script';
-		margin-top:0;
+    margin-top:0;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h4 {
     font-weight: 400;
     font-style: normal;
     font-family: 'Dancing Script';
-		line-height:1.4em;
+    line-height:1.4em;
 }
 
 p {
@@ -48,11 +48,11 @@ p {
 
 
 ul, ol {
-	margin:0 0 0 2.5em;
-	list-style-position: outside;
+  margin:0 0 0 2.5em;
+  list-style-position: outside;
 }
 ul ul, ol ol {
-	margin: 0 0 0 2.5em;
+  margin: 0 0 0 2.5em;
 }
 
 
@@ -67,24 +67,24 @@ blockquote cite:before {
 
 
 blockquote {
-	position:relative;
-	padding:0;
-	max-width:20em;
-	font-weight: 200;
-	line-height: 1.4em;
-	font-size: 24px; /* 1.4 x 14 = 19px */ 
-	text-indent: 0px;
-	margin: 40px auto;
-    font-family: 'Dancing Script';
-text-align:center;
+  position:relative;
+  padding:0;
+  max-width:20em;
+  font-weight: 200;
+  line-height: 1.4em;
+  font-size: 24px; /* 1.4 x 14 = 19px */ 
+  text-indent: 0px;
+  margin: 40px auto;
+  font-family: 'Dancing Script';
+  text-align:center;
 }
 
 
 blockquote cite {
-	display:block;
-	font-size:18px;
-	margin-top:1rem;
-	   	font-family: 'Josefin Sans', sans-serif;
+  display:block;
+  font-size:18px;
+  margin-top:1rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -96,7 +96,7 @@ blockquote cite {
 p.big {
     line-height: 1.5em;
     font-size: 24px;
-   	font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     margin-bottom: 0;
 }
@@ -105,8 +105,8 @@ h1.big {
     font-size: 96px;
     line-height: 1em;
     font-weight: 400;
-    font-style: normal;		
-		margin-top:0;
+    font-style: normal;   
+    margin-top:0;
 }
 
 
@@ -127,9 +127,9 @@ h3 {
 
 
 .nav > ul {
-	font-family: 'Josefin Sans', sans-serif;
-	margin:0;
-		font-weight:400;
+  font-family: 'Josefin Sans', sans-serif;
+  margin:0;
+    font-weight:400;
     font-size: 24px;
     letter-spacing: 0px;
     text-transform: lowercase;

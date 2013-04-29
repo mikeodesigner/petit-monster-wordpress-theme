@@ -3,7 +3,7 @@
 /* global elemetns layout */
 .container              { width: 1100px; margin: 0 auto; }
   .header               { text-align: center; } 
-    .header .logo       { clear: both; margin: 0 auto; }
+    .logo               { clear: both; margin: 0 auto; }
     .nav                { width: 25%; float: right; text-align: left; }
       .nav > ul         { margin: 0; } 
         .nav > ul li    { display: block; padding:0;}
@@ -15,7 +15,7 @@
   
 
 /* vertical and horisontal white space */
-.main > *             { 
+.main > * { 
   padding: 2rem 40px; 
    }
 
