@@ -29,39 +29,14 @@ function of_get_option($name, $default = false) {
 
 
 
-// custom menu support 
+// custom menu support with no default menu 
 add_theme_support( 'menus' );
 if ( function_exists( 'register_nav_menus' ) ) {
   	register_nav_menus(
   		array(
-  		  'header_menu' => 'Header Menu',
-  		  'sidebar_menu' => 'Sidebar Menu',
-  		  'footer_menu' => 'Footer Menu'
+  		  'header_menu' => 'Header Menu'
   		)
   	);
-}
-
-
-// removes div for HTML5 purity
-function wp_nav_menu_no_ul()
-{
-    $options = array(
-        'echo' => false,
-        'container' => false,
-        'fallback_cb'=> 'default_page_menu'
-    );
-
-    $menu = wp_nav_menu($options);
-    echo preg_replace(array(
-        '#^<ul[^>]*>#',
-        '#</ul>$#'
-    ), '', $menu);
-
-}
-
-// before you set up menu just list all pages with no DIV
-function default_page_menu() {
-   wp_list_pages('title_li=');
 }
 
 

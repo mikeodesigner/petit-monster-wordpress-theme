@@ -48,10 +48,10 @@
     <!-- nav mobile nav show and hclasse links-->
     <a href="#nav" id="nav_link" class="hidden"></a>
     <nav class="main nav" id="nav">
-        <ul>
-            <?php wp_nav_menu_no_ul( array( 'theme_location' => 'header_menu', 'container' => '' ) );  ?>
+
+            <?php wp_nav_menu( array( 'theme_location' => 'header_menu', 'container' => '', 'fallback_cb' => '' ) );  ?>
             <!--add the menu without <div> for HTML5 purity you can manage it via Appearance > menus > header menuheader menu-->
-        </ul>
+
         <a id="close_nav_link" href="#top" class="hidden"></a>
     </nav>
 
@@ -62,7 +62,7 @@
    <!-- display content -->
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     
-        <?php if ( is_archive()) { ?>
+        <?php if (( is_archive()) && ( is_category())) { ?>
     
         <article class="loop"> 
          <?php the_title( '<h2>', '</h2>' ); ?>
@@ -75,9 +75,10 @@
         <?php if ( !is_front_page() ) { the_title( '<h1>', '</h1>' ); }?><!-- display title everywhere but on the home page -->
         <?php if ( !is_page()) { ?> <time> <? the_time('F jS, Y') ?> </time> <?php } ?><!--displays creation time for posts only -->
         <?php the_content(__('Read Article'));?>
+        </article>
         
         <?php } ?>
-        </article>
+        
     <?php endwhile; else: ?>
     
     <div class="no-results">
