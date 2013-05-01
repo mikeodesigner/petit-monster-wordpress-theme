@@ -1,10 +1,10 @@
 /* Author: mikeo.designer */
 /* code == poetry */
 /* global elemetns layout */
-.container              { width: 1100px;  margin:4em auto;  position:relative; display:block; }
+.container              { width: 1100px;  margin:4em auto;  position:relative; display:block; overflow:auto; }
   .header               { width:25%; float:left; } 
     .nav                { width: 100%; float: right; display:inline; }
-      .nav  > ul        { margin:0; } 
+      .nav  > ul        { margin:0; padding:0; } 
         .nav > ul > li  { margin:0; }
         .nav            { width: 100%; float: right; }
         .nav            { float: left; clear:left; }
