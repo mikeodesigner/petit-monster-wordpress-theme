@@ -62,18 +62,19 @@
    <!-- display content -->
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     
-        <?php if (( is_archive()) && ( is_category())) { ?>
-    
-        <article class="loop"> 
-         <?php the_title( '<h2>', '</h2>' ); ?>
-         <time> <? the_time('F jS, Y') ?> </time>
-        <?php the_content(__('Read Article'));?>
-        </article>
-        <?php } else { ?>
-
+        <?php if ( is_singular()) { ?> <!-- checks for single post or instead of single.php-->
+                  
         <article class="single">
         <?php if ( !is_front_page() ) { the_title( '<h1>', '</h1>' ); }?><!-- display title everywhere but on the home page -->
         <?php if ( !is_page()) { ?> <time> <? the_time('F jS, Y') ?> </time> <?php } ?><!--displays creation time for posts only -->
+        <?php the_content(__('Read Article'));?>
+        </article>
+        
+        <?php } else { ?>
+
+        <article class="loop"> 
+         <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+         <time> <? the_time('F jS, Y') ?> </time>
         <?php the_content(__('Read Article'));?>
         </article>
         
@@ -92,12 +93,9 @@
 
 
 
-  <?php if ( ! is_front_page()) : ?>
-  <!-- display sidebar on all pages apart from home -->
-  <aside class="main aside">
-    <?php
-    get_sidebar();
-    ?>
+  <?php if ( ! is_front_page()) : ?><!-- display sidebar on all pages apart from home -->
+  <aside class="main aside"> 
+  <?php dynamic_sidebar( 'Sidebar 1' ); ?>
   </aside>
   <?php endif; ?>
 
