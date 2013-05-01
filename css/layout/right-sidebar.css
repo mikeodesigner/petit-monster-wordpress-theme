@@ -1,7 +1,7 @@
 /* Author: mikeo.designer */
 /* code == poetry */
 /* global elemetns layout */
-.container              { width:1100px; margin:5rem auto; position:relative; display:block; overflow:auto; }
+.container              { width:1100px; margin:5rem auto; position:relative; display:block;overflow:auto;}
   .header               { width:20%; float:right; } 
     .logo               { }
     .nav                { width:100%; float:left; display:inline; box-sizing:border-box; }
