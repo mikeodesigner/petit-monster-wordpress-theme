@@ -1,7 +1,7 @@
 Petit monster wordpress theme (pre-alpha)
 ========================================
 
-Petit is and tiny wordpress theme/framework. It has hundreds of unique combinations of three main style components – typography, colors, layout.
+Petit is and tiny wordpress theme/framework. It has hundreds of unique combinations of three main style components – typography, colors, layout. Check out [DEMO](http://www.petit-monster.com/).
 
 
 ## Disclaimer
