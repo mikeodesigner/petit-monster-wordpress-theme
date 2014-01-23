@@ -8,6 +8,7 @@ Description: Petit is a tiny wordpress theme/framework. It has hundreds of uniqu
 Version: 0.1
 License: The MIT License (MIT)
 License URI: http://opensource.org/licenses/MIT
+Tags: theme-options, responsive-layout
 
 */
 
@@ -15,3 +16,5 @@ License URI: http://opensource.org/licenses/MIT
 @import url('css/misc/reset.css'); 
 @import url('css/misc/grids.css') (min-width:800px);  
 @import url('css/misc/mobile-nav.css') (max-width:800px); 
+
+

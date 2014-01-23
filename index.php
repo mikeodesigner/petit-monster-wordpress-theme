@@ -15,7 +15,7 @@
                   
         <article class="single">
         <?php if ( !is_front_page() ) { the_title( '<h1>', '</h1>' ); }?><!-- display title everywhere but on the home page -->
-        <?php if ( !is_page()) { ?> <time> <? the_time('F jS, Y') ?> </time> <?php } ?><!--displays creation time for posts only -->
+        <?php if ( !is_page()) { ?> <time> <?php the_time('F jS, Y') ?> </time> <?php } ?><!--displays creation time for posts only -->
         <?php the_content(__('Read Article'));?>
         </article>
         
@@ -23,7 +23,7 @@
 
         <article class="loop"> 
          <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-         <time> <? the_time('F jS, Y') ?> </time>
+         <time> <?php the_time('F jS, Y') ?> </time>
         <?php the_content(__('Read Article'));?>
         </article>
         
