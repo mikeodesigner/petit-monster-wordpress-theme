@@ -48,12 +48,10 @@
     <!-- nav mobile nav show and hclasse links-->
     <a href="#nav" id="nav_link" class="hidden"></a>
     <nav class="main nav" id="nav">
-
             <?php wp_nav_menu( array( 'theme_location' => 'header_menu', 'container' => '', 'fallback_cb' => '' ) );  ?>
             <!--add the menu without <div> for HTML5 purity you can manage it via Appearance > menus > header menuheader menu-->
 
         <a id="close_nav_link" href="#top" class="hidden"></a>
     </nav>
-
     </header>
   <!-- header end -->

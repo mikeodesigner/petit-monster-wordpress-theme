@@ -17,9 +17,6 @@
 /* global vertical and horisontal white space */
 .logo, .nav, .section, .aside, .footer  {
   padding:2rem 40px;
-   box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
 }
 
 article {margin-bottom:6rem;}

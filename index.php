@@ -8,6 +8,7 @@
 <?php get_header(); ?>
 
   <section class="main section">
+    <div class="width">
    <!-- display content -->
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     
@@ -38,13 +39,16 @@
     <!--noResults-->
     <?php endif; ?>
     <!-- end display content --> 
+    </div><!-- width -->
     </section>
 
 
 
   <?php if ( ! is_front_page()) : ?><!-- display sidebar on all pages apart from home -->
   <aside class="main aside"> 
-  <?php dynamic_sidebar( 'Sidebar 1' ); ?>
+    <div class="width">
+    <?php dynamic_sidebar( 'Sidebar 1' ); ?>
+    </div>
   </aside>
   <?php endif; ?>
 
