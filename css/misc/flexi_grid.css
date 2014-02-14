@@ -1,0 +1,55 @@
+
+
+/* flexi grid without gutter */ 
+
+
+.full, .half, .third, .two-thirds, .quarter, .three-quarters, 
+.fifth, .two-fifth, .three-fifth, .four-fifth, 
+.eighth, .three-eighth, .five-eighth {
+  
+  float:left;
+  display:block;
+  margin:0;
+  padding:0 20px;
+  
+}
+
+
+
+.full {width:100%;}
+.half {width:50%;}
+
+
+.third {width:33.333%;}
+.two-thirds {width:66.666%}
+
+
+.quarter {width:25%;}
+.three-quarters {width:75%;}
+
+
+.fifth { width: 20%; } 
+.two-fifth { width: 40%;}
+.three-fifth { width: 60%; }
+.four-fifth  { width: 80%; }
+
+
+.eighth { width:12.5% }
+.three-eighth { width: 37.5% }
+.five-eighth { width: 62.5% }
+
+
+img.fit-in-grid {max-width:100%}
+
+.centered-col {float:none; margin:0 auto;}
+
+
+
+
+
+
+
+
+
+
+
