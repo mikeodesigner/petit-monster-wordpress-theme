@@ -24,7 +24,7 @@ supports 6 and 8 columns
 
 .grid-row [class*='col-']:last-of-type {
   margin-right:0;
-border:1px soli;
+border:1px solid;
 }
 
 
@@ -35,7 +35,7 @@ border:1px soli;
 
 .col-1-6 {width:15%}
 .col-2-6 {width:32%;}
-.col-3-6, .gcol-4-8, .half {width:49%;}
+.col-3-6, .col-4-8, .half {width:49%;}
 .col-4-6 {width:66%;}
 .col-5-6 {width:81.5%;}
 
