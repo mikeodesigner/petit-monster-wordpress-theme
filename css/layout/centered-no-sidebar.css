@@ -1,7 +1,7 @@
 /* Author: mikeo.designer */
 /* code == poetry */
 /* global elemetns layout */
-  .container            { min-width: 800px; width:80%; max-width:80em; margin: 0 auto; }
+  .container            { width:80%; max-width:80em; margin: 0 auto; }
     .header             { width: 100%; text-align: center; } 
       .logo             { margin: 0 auto; }
       .nav              { } 
